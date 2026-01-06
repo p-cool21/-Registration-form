@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<style>
+    body{
+        border: 100px;
+        box-sizing: border-box;
+        padding-left: 400px;
+    }
+   .Name-box{
+     background: rgba(0, 0, 0, 0.6); 
+      padding: 10px;
+      border-radius: 15px;
+      width: 100%;
+      max-width: 500px;
+      color: #fff;
+      padding-left: 10px;
+   }
+   
+    </style>
+<body>
+    
+    <div class="Name-box">
+     <h1>Registration Form</h1>
+    <form action="/Registration" method="POST"></form>
+     <hr>
+     <ul>
+    <li> <h3>Personal Details</h3></li>
+    </ul>
+    <label for="Name" class="form-label" >Full Name</label>
+    <input text="name" class="form-control" Placeholder="Enter full name here"><br>
+    </div>
+
+    <div class="Name-box">
+    <label for="Name" class="form-label" >Father's Full Name</label>
+    <input text="name" class="form-control" Placeholder="Enter here"><br>
+    </div>
+
+    <div class="Name-box">
+    Gender<input type="radio" value="Male" name="Gender" id="Male">Male
+    <input type="radio" value="Female" name="Gender" id="Female">Female
+    <input type="radio" value="other" name="Gender" id="other">other
+    </div>
+
+    
+    <div class="Name-box">
+    <label for="Date of birth" class="form-label" >DOB</label>
+    <input text="Date" class="form-control" Placeholder="required"><br>
+    </div>    
+
+  <div class="Name-box">
+    <label for="email" class="form-label" >Email</label>
+    <input text="email" class="form-control" Placeholder="Enter Email here"><br>
+  </div>
+     
+  <div class="Name-box">
+    <label for="college name " class="form-label" > College name</label>
+    <input text="college name" class="form-control" Placeholder="Enter college name here"><br>
+ </div>
+   
+   <div class="Name-box">
+    <label for="Branch  " class="form-label" >Branch</label>
+    <input type="select">
+ </div>
+  
+ <div class="Name-box">
+   cource<select name="cource" id="subject" placeholder="select cource here">
+    <option value="AI&ML">AI&ML</option>
+    <option value="Data science">Data science</option>
+    <option value="web developent">web developent</option>
+    <option value="Java full stack">Java full stack</option>
+       </select>
+ </div>
+  
+      <div class="Name-box">
+        <input type="submit"value=submit>
+        </div>
+</body>
+</html>
